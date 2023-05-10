@@ -9,7 +9,7 @@ source:
   sha256: 339fe203c6dea5a8d5005de3f2dbe45019d9603508c238ba01ca0d80375fe452
 
 build:
-  number: 0
+  number: 1
   script_env:
     - CPPFLAGS=-D_LIBCPP_DISABLE_AVAILABILITY -std=c++17    # [osx]
     - EVALHYD_PYTHON_VENDOR_XTL=FALSE
