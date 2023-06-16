@@ -248,4 +248,5 @@ Feedstock Maintainers
 =====================
 
 * [@ThibHlln](https://github.com/ThibHlln/)
+* [@fbourgin](https://github.com/fbourgin/)
 
