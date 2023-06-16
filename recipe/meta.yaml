@@ -1,4 +1,4 @@
-{% set version = "0.1.0.0" %}
+{% set version = "0.1.1.0" %}
 
 package:
   name: evalhyd-python
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://gitlab.irstea.fr/HYCAR-Hydro/evalhyd/evalhyd-python/-/archive/v{{ version }}/evalhyd-python-v{{ version }}.tar.gz
-  sha256: 339fe203c6dea5a8d5005de3f2dbe45019d9603508c238ba01ca0d80375fe452
+  sha256: ac451d46fa451f84c620028fe25acb153bb7ab851848481e0994303817a2ba9f
 
 build:
-  number: 1
+  number: 0
   script_env:
     - CPPFLAGS=-D_LIBCPP_DISABLE_AVAILABILITY -std=c++17    # [osx]
     - EVALHYD_PYTHON_VENDOR_XTL=FALSE
@@ -38,7 +38,7 @@ requirements:
     - xtl >=0.7.5
     - xtensor >=0.24.6
     - xtensor-python >=0.26.1
-    - libevalhyd ==0.1.0
+    - libevalhyd ==0.1.1
   run:
     - python
     - numpy
