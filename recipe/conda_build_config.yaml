@@ -1,5 +1,5 @@
 python:
-- 3.11
+- 3.11.* *_cpython
 c_compiler:    # [win]
 - vs2022       # [win]
 cxx_compiler:  # [win]
